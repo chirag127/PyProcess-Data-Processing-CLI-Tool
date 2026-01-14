@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(135deg, #e0e0e0, #f5f5f5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.glass {
+    background: rgba(255, 255, 255, 0.25);
+    border-radius: 12px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    padding: 2rem;
+    margin: 1rem;
+    max-width: 800px;
+    width: 90%;
+    text-align: center;
+}
+
+header.glass h1 {
+    margin-top: 0;
+    font-size: 2.5rem;
+    color: #333;
+}
+
+.btn {
+    display: inline-block;
+    margin: 0.5rem;
+    padding: 0.75rem 1.5rem;
+    background: rgba(255, 255, 255, 0.4);
+    color: #000;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: background 0.3s ease;
+}
+
+.btn:hover {
+    background: rgba(255, 255, 255, 0.6);
+}
+
+footer.glass {
+    margin-top: auto;
+    font-size: 0.9rem;
+    color: #555;
+}
+
+footer.glass a {
+    color: #0066cc;
+    text-decoration: none;
+    margin: 0 0.5rem;
+}
+
+footer.glass a:hover {
+    text-decoration: underline;
+}
